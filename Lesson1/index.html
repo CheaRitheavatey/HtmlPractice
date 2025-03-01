@@ -150,6 +150,75 @@
       </tfoot>
       </table>
    </section>
+
+   <article id="form">
+      <h2>form contact me</h2>
+      <form action="https://httpbin.org/post" method="get">
+         <p>
+         <label for="name">name: </label>
+         <input type="text" name="name" id="name" autofocus>
+      </p>
+
+      <p>
+
+         <label for="email">email: </label>
+         <input type="text" name="email" id="email" required>
+      </p>
+      <p>
+
+         <label for="password">password: </label>
+         <input type="password" name="password" id="password" required>
+      </p>
+      <p>
+
+         <label for="phone">phone: </label>
+         <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}]" required>
+      </p>
+      <p>
+
+         <label for="coffee">whats your fav coffee: </label>
+         <select name="coffee" id="coffee" >
+            <optgroup label="cold coffee">
+               <option value="regular coffee">regular coffee</option>
+               <option value="decaf coffee">decaf coffee</option>
+            </optgroup> 
+
+            <optgroup label="hot coffee">
+               <option value="espresso">espresso</option>
+               <option value="cappuchino">cappuchino</option>
+            </optgroup>    
+            
+            
+         </select>
+        
+      </p>
+
+      <fieldset>
+         <legend>favorite food</legend>
+         <p>
+            <input type="radio" name="food" id="pizza" value="pizza" checked>
+            <label for="pizza">pizza</label>
+         </p>
+         <p>
+            <input type="radio" name="food" id="taco" value="pizza" checked>
+            <label for="taco">taco</label>
+         </p>
+         <p>
+            <input type="radio" name="food" id="pasta" value="pasta" checked>
+            <label for="pasta">pasta</label>
+         </p>
+      </fieldset>
+      <br>
+
+      <label for="message">text me</label>
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="enter your message here"></textarea>
+
+      <br>
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+      <button type="submit" formaction="https://httpbin.org/post" formmethod="post">submit form</button>
+      </form>
+   </article>
     
     <footer>&lt;&lt;&lt; &copy; vatey &gt;&gt;&gt;</footer>
    </main>
