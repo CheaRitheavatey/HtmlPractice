@@ -7,3 +7,12 @@ body {
     color: red;
     font-size: 30px;
 }
+a:hover, a:active {
+    color: green;
+}
+
+table, tr, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}

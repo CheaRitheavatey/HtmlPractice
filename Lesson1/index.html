@@ -7,57 +7,80 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World H1</h1>
-    <hr>
-    <h2>this is header2</h2>
-    <h3>this is header3</h3>
-    <hr>
-    <p>This is a paragraph ajuden <br>&nbsp; a bit of indentation ajduleane i wna tou aotu <br>lets add another break</p>
-    <p>resources from <abbr title="w3schools">click</abbr></p>
+   <header>
+      <h1>Hello World H1</h1>
+    <nav>
+      <u>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </u>
+    </nav>
 
-    <p>i can put address location using address tag</p>
-    <address>address place utca 123</address>
-    <hr>
-    &lt;&lt;&lt; &copy; vatey &gt;&gt;&gt;
+   </header>
 
+   <main>
+
+   
+    
+    <section id="main">
+      <h2>this is header2</h2>
+      <h3>this is header3</h3>
+      <hr>
+      <p>This is a paragraph ajuden <br>&nbsp; a bit of indentation ajduleane i wna tou aotu <br>lets add another break</p>
+      <p>resources from <abbr title="w3schools">click</abbr></p>
+
+      <p>i can put address location using address tag</p>
+      <address>address place utca 123</address>
+      <hr>
+      
+
+
+    </section>
+    
     <hr>
+
+    <section id="list">
+      this is an ordered list
+      <ol>
+         <li>item 1</li>
+         <li>item 2</li>
+         <li>item 3</li>
+         <li>item 4</li>
+      </ol>
+ 
+      this is an unordered list
+      <ul>
+         <li>item 1</li>
+         <li>item 2</li>
+         <li>item 3</li>
+         <li>item 4</li>
+      </ul>
+ 
+      this is a description list
+      <dl>
+         <dt><u>item 1</u></dt>
+         <dd>description of item 1: blah blah blah</dd>
+ 
+         <dt> <u>item 2</u></dt>
+         <dd>description of item 2: blah blah blah</dd>
+ 
+         <dt><u>item</u></dt>
+         <dd>description of item: blah blah blah 3</dd>
+ 
+         <dt><u>item 4</u></dt>
+         <dd>description of item 4: blah blah blah</dd>
+      </dl>
+ 
+
+    </section>
     <!-- list of items -->
-     this is an ordered list
-     <ol>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
-     </ol>
-
-     this is an unordered list
-     <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
-     </ul>
-
-     this is a description list
-     <dl>
-        <dt><u>item 1</u></dt>
-        <dd>description of item 1: blah blah blah</dd>
-
-        <dt> <u>item 2</u></dt>
-        <dd>description of item 2: blah blah blah</dd>
-
-        <dt><u>item</u></dt>
-        <dd>description of item: blah blah blah 3</dd>
-
-        <dt><u>item 4</u></dt>
-        <dd>description of item 4: blah blah blah</dd>
-     </dl>
-
-     <hr>
-    this is a link
+    
+   <section id="links">
+      this is a link
     <a href="https://www.google.com" title="abc">google</a>
 
-    <hr>
+    
     adding image
     <img src="img/img1.jpg" alt="bird img" width="200">
     <figcaption>this is a caption for the image</figcaption>
@@ -65,5 +88,70 @@
     <p>
       <code>&lt;h1&gt; hello world &lt;/h1&gt;</code>
     </p>
+
+    <p>some free source of picture <a href="https://unsplash.com/" target="_blank">unsplash</a></p>
+    <p>some free source of picture <a href="https://pixabay.com/" target="_blank">pixabay</a></p>
+
+
+   </section>
+
+   <section id="tables">
+
+      <table>
+         <caption>schedule</caption>
+         <thead>
+         <th>Time</th>
+         <th>Activity</th>
+         </thead>
+
+         <tbody>
+         <tr>
+            <td>
+               <time datetime="8:00">8am</time>
+            </td>
+            <td>Wake up</td>
+         </tr>
+         <tr>
+            <td>
+               <time datetime="11:00">11am</time>
+            </td>
+            <td>Go to school</td>
+         </tr>
+         <tr>
+            <td>
+               <time datetime="12:00">12am</time>
+            </td>
+            <td>Eat lunch</td>
+         </tr>
+         <tr>
+            <td>
+               <time datetime="17 :00">17am</time>
+            </td>
+            <td>Eat dinner</td>
+         </tr>
+         <tr>
+            <td rowspan="2">all other times</td>
+            <td >free time</td>
+         </tr>
+         <tr>
+            <td>
+               sleep
+            </td>
+         </tr>
+
+         <tr>
+            <td colspan="2">go out side</td>
+         </tr>
+      </tbody>
+      <tfoot>
+         <tr>
+            <td colspan="2">everyday</td>
+         </tr>
+      </tfoot>
+      </table>
+   </section>
+    
+    <footer>&lt;&lt;&lt; &copy; vatey &gt;&gt;&gt;</footer>
+   </main>
 </body>
 </html>
