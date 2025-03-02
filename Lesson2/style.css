@@ -1,0 +1,9 @@
+table, th, tr, td {
+ 
+    border: 1px black solid;
+    padding: 0.5rem;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+   
+
+}
