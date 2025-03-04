@@ -1,0 +1,39 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+    font-size: 20px;}
+
+body {
+    font-size: 22px;
+}
+
+p {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+h2 {
+
+    color: yellow;
+}
+/* aricle1 p = in article1 select all p */
+#article1 p {
+    font-style: italic;
+    color: green;
+}
+
+button, input, textarea, select {
+    font-size: 20px;
+}
+
+/* element selector is the least specific */
+/* class selector is more specific */
+/* id selector is even more specific */
+
+
+/* if dont know why its work, check with w3c or go to the webpage and inspect. before put !important next to it because it is kinda not good practice as it override */
+/* specificity calculator: https://specificity.keegan.st/ will help you to know which selector is more specific */
