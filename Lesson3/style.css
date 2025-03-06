@@ -7,6 +7,8 @@ html {
 
 body {
     font-size: 22px;
+    background-color: papayawhip;
+    color: black;
 }
 
 p {
@@ -37,3 +39,4 @@ button, input, textarea, select {
 
 /* if dont know why its work, check with w3c or go to the webpage and inspect. before put !important next to it because it is kinda not good practice as it override */
 /* specificity calculator: https://specificity.keegan.st/ will help you to know which selector is more specific */
+
