@@ -28,3 +28,9 @@ body {
 }
 
 
+- we usually dont want to use em for font size but istead use rem because rem is relative to the root font size 
+example
+
+- em is usally use for padding and margin
+- ch: character width meaning how many characters fit in one line
+- ex: width: 40ch means 40 characters fit in one line and after that it will go to the next line
