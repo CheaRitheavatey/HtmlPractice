@@ -1,4 +1,7 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -9,8 +12,12 @@ body {
     font-size: 22px;
     background-color: papayawhip;
     color: black;
+    min-height: 100vh;
 }
-
+h1 {
+    border: 2px dashed black;
+    width: 50%;
+}
 p {
     color: red;
 }

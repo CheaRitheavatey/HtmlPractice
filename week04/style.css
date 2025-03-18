@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box; /*border-box = width + padding + border*/
+}
+
+
+.container {
+    border: 2px dashed black;
+    width: 50%;
+    font-size: 1.5rem;
+    /* margin-top then right then bottom left = margin  */
+    /* margin-top: 1.5em; */ /*the left and right margin is gone and the bottom as well*/
+    /* margin-right: 1.5em; */ /*the left and right margin is gone and the bottom as well*/
+    /* margin-bottom: 1.5em; */ /*the left and right margin is gone and the bottom as well*/
+    /* margin-left: 1.5em; */ /*the left and right margin is gone and the bottom as well*/
+    /* margin: 1.5em 1.5em 1.5em 1.5em; margin: top, right, bottom, left; -- you can also write it this way */
+    margin: 1.5rem;
+    /* for padding we can also do the same as margin */
+    padding: 1rem; /*rem is based on the h1 and em is based on the parent of parent*/
+
+    /* same thing can be apply for the border too */
+    border-top: dashed red;
+    border-right: solid green;
+    border-bottom: dotted yellow;
+
+}
