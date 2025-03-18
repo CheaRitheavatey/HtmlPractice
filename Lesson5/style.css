@@ -1,0 +1,28 @@
+/*
+Typography is the way that text is arranged and presented
+*/
+
+body {
+    padding: 10%;
+    font-size: 1.5rem;
+    /* color: purple; */
+}
+
+input, button {
+    font: inherit;
+}
+
+p {
+    text-indent: 2em; /*indent the first line  by 2em*/
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+    text-align: justify;
+    line-height: 1.4;
+    /* width: 50%; */
+
+    /* font-weight: bold;
+    font-style: italic; */
+    font-family: sans-serif;
+    /* can use google fonts to add a new font color and put the link in the head of the element */
+
+}
