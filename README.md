@@ -34,3 +34,12 @@ example
 - em is usally use for padding and margin
 - ch: character width meaning how many characters fit in one line
 - ex: width: 40ch means 40 characters fit in one line and after that it will go to the next line
+
+
+
+display: inline -> do not stack on top of each other and no new line, take up the width of the element 
+display: block -> stack on top of each other and create a new line, have 100% width
+display: inline-block -> hybrid, keep content inline but cannot apply width or height.
+
+-- usually use inline-block to turn from link to a button
+-- or turn a list into a row instead of vertical list we get a horizontal list
