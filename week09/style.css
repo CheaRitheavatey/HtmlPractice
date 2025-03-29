@@ -1,0 +1,37 @@
+body {
+    font-size: 1.5rem;
+}
+
+.columns {
+    column-count: 4;
+    column-width: 250px; /*never be less than 250px*/
+    /* columns: 4 250px; same as the 2 lines above*/
+    column-rule: 3px solid red;  /*almost like a border to separate the columns*/
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns h2 {
+    margin-top: 0;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    break-inside: avoid; /*keep  the h2 from being split into 2 columns*/
+    /* break-before: column; */
+}
+
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    column-span: all;
+}
+
+
+.nowrap {
+    white-space: nowrap;
+}
+
