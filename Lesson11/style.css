@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh; /*the whole window is 100vh*/
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 1px solid black;
+    display: flex; /*when apply flex the container going horizontally not stack on top of each other*/
+    justify-content: center;/*where you want the flex to start at the end or start, around or evenly */
+    gap: 1rem;
+    align-items: center; /*move the box to top bottom or center depend on the flex*/
+    flex-direction: row;
+    flex-wrap: wrap; /*wrap the flex to the next line*/
+    flex-flow: row wrap; /*same as the 2 lines above combine*/
+    align-content: space-evenly ;
+}
+
+.box {
+    /* min-width: 100px; */
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+
+    /*individual box*/
+    display: flex;
+    /*the 2 line below is to center something*/
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 1; /*how much space you want the flex to take* or that it grow to take up the rest of the container*/
+    flex-basis: 250px;
+
+    flex: 1 1 250px; /*flex-grow flex-shrink flex-basis can go do % instead of px same as the 2 line above*/
+
+
+}
+
+.box:nth-child(2) {
+    flex: 2 2 250px;
+    order: 0; 
+}
